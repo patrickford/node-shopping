@@ -1,0 +1,26 @@
+{
+  "name": "node-shopping",
+  "version": "1.0.0",
+  "description": "Node.js based shopping list app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickford/node-shopping.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Patrick Ford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patrickford/node-shopping/issues"
+  },
+  "homepage": "https://github.com/patrickford/node-shopping#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
