@@ -77,3 +77,7 @@ app.delete('/items/:id', function(req, res) {
 // Listen on port defined in environment variable or default to localhost:8080
 app.listen(process.env.PORT || 8080);
 console.log('listening on localhost: port 8080');
+
+exports.app = app;
+exports.storage = storage;
+
